@@ -308,10 +308,9 @@ html {
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      margin: 4px 2px;
+      margin-left: 550px;
       cursor: pointer;
       text-decoration: none;
-      align-content: center;
     }
       .contact-btn {
       width: 300px;
