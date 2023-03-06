@@ -181,15 +181,22 @@ html {
 
    /* FORMS */
   .forms {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       column-gap: 20px;
       background-image: #CCCCCC;
       margin-top: 160px;
+      max-width: 600px  ;
   }
 
   .forms-text-container {
       min-width: 400px;
       max-width: 600px;
+  }
+
+  .form-control{
+      align-items: center;
+      
+  }
+
+  .success-center padd-15{
+      margin-left: 100px;
   }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylesswitcher.js">
@@ -19,8 +20,6 @@
                 <ul>
                     <li><a href="#Contact">CONTACT</a></li>
                     <li><a href="#Sports">SPORTS</a></li>
-                    <li><a href="#Achiev">ACHIEVEMENTS</a></li>
-                    <li><a href="#Educ">EDUCATION</a></li>
                     <li><a href="#About">ABOUT</a></li>
                     <li><a href="#Home">HOME</a></li>
                     <li style="float:left"><a  href="#Home">
@@ -30,6 +29,7 @@
         </header>
 
         <!-- HERO SECTION -->
+        <div id="Home">
         <section class="hero-section">
             
             <!-- Text section -->
@@ -55,15 +55,86 @@ If you wish to hire me, please don't hesitate to contact me through the given in
                 <img src="img/hero-shot.png" alt="sfsfsk" width="500" height="auto">
             </div>
         </section>
+</div>
+        <!--ABOUT-->
+    <div id="About">
+        <section class="about-section">
+            <div class="about-text-container">
+                
+            <h2 class="sports-h2-tag">ABOUT ME</h2>
+              <p class="about-p1-tag">
+                Birthdate: ********<br>
+                Age: 20<br>
+                Sex: Male<br>
+                Address: ** ** ****<br>
+                City: *****<br>
+                Region: National Capital Region<br>
+                Country: Philippines<br><br><br>
 
-        <section class="forms">
-           <form method="post" action="insert.php">
-                <input type="text" class="form-control" placeholder="Username" id="Username" name="Username"><br>
-                <input type="email" class="form-control" placeholder="email" id="email" name="email"><br>
-                <textarea name="feedback" class="form-control" id="feedback" placeholder="feedback"></textarea><br>
-                <button type="submit" class="btn">Send Feedback</button>
-           </form>
+                ~ Successfully Developed Apache WebServer on CentOS7<br>
+                ~ Successfully Developed BIND DNS WebServer on CentOS7<br>
+                ~ Successfully Installed Zimbra Collaboration Mail Server on CentOS7<br><br><br>
+                
+                Countries Visited:<br>
+                Australia<br>
+                Malaysia<br>
+                South Korea<br>
+                United States of America</p>
+            </div>
+
+            <div class="about-image-container">
+                    <img src="img/cave.jpg"  width="300" height="auto" border-radius="30%">
+            </div>
         </section>
+    </div>
+
+    <div id="Sports">
+        <section class="sports-section">
+            <h2 class="sports-h2-tag">MY SPORTS</h2><br>
+            <div class="sports-image-container">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/Tres.png">
+                        <img src="img/Tres.png" alt="Tres" width="250" height="auto">
+                    </a>
+                <div class="desc">Three Points - BasketBall</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/Layup.png">
+                        <img src="img/Layup.png" alt="Layup" width="300" height="auto">
+                    </a>
+                <div class="desc">Layup - BasketBall<br></div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/block.png">
+                        <img src="img/block.png" alt="Block" width="180" height="auto">
+                    </a>
+                <div class="desc">Three Man Block - BasketBall</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/tbt.JPG">
+                        <img src="img/tbt.JPG" alt="Table Tennis" width="250" height="auto">
+                    </a>
+                <div class="desc">Table Tennis</div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
+
+        <!--FORM-->
+        <div class="contbtn">
+                    <a href="/lab3/ci4/public/comments/" class="contact-btn">Feedbacks Here</a>
+            </div>
         </main>
     </main>
 </body>
