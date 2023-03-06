@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>CodeIgniter Tutorial</title>
+    <title>Archog's Personal Website</title>
 </head>
 <body>
 
